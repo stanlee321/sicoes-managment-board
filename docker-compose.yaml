@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  front:
+    image: stanlee321/fastapi-front:latest
+    ports:
+      - "8002:80"
+    env_file:
+      - front.env
